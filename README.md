@@ -1,101 +1,82 @@
-<div align="center">
+# python-fundamentals
 
-# 🐍 Python Fundamentals
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
-
-*A comprehensive, structured collection of Python notebooks — from core syntax to advanced patterns.*  
-Built as part of a 1-year journey toward ML/AI engineering excellence.
-
-</div>
+A complete Python reference built notebook by notebook. Every concept is implemented from scratch with real examples — not toy snippets. This is the foundation everything else in this portfolio sits on.
 
 ---
 
-## 👤 About This Repository
+## About
 
-Hi! I'm a Master's student in Computer Science at Xinjiang University, specializing in **Anomaly Detection** and **NLP**. This repository documents my structured Python learning — every notebook is written to be both a study reference for me and a clean teaching resource for anyone who finds it useful.
+This repo covers Python from the ground up, moving from core syntax through to the advanced patterns used in production ML code. Each notebook is self-contained: you can read it top to bottom, run every cell, and come away with a working mental model of the topic.
 
-> 💡 **Philosophy:** Learn deeply, document clearly, share openly.
+The goal is not to memorize syntax. The goal is to understand how Python actually works so that writing clean, idiomatic code becomes natural.
 
 ---
 
-## 📂 Repository Structure
+## Notebooks
+
+| # | Topic | Status |
+|---|-------|--------|
+| 01 | Variables, Data Types, Type System | ⏳ Planned |
+| 02 | Control Flow: Conditionals and Loops | ⏳ Planned |
+| 03 | Functions: Definitions, Args, Kwargs, Lambda | ⏳ Planned |
+| 04 | Data Structures: List, Tuple, Dict, Set, Comprehensions | ⏳ Planned |
+| 05 | OOP: Classes, Inheritance, Magic Methods, Dataclasses | ⏳ Planned |
+| 06 | File I/O and Exception Handling | ⏳ Planned |
+| 07 | Modules, Packages, Virtual Environments | ⏳ Planned |
+| 08 | Advanced: Generators, Decorators, Context Managers | ⏳ Planned |
+| 09 | Async Python: asyncio, await, concurrent programming | ⏳ Planned |
+| 10 | NumPy deep dive | ⏳ Planned |
+| 11 | Pandas deep dive | ⏳ Planned |
+
+Status: ✅ Complete · 🔄 In Progress · ⏳ Planned
+
+---
+
+## Structure
 
 ```
 python-fundamentals/
-│
-├── 01_basics/
-│   ├── 01_variables_and_datatypes.ipynb
-│   ├── 02_operators_and_expressions.ipynb
-│   └── 03_input_output.ipynb
-│
-├── 02_control_flow/
-│   ├── 01_conditionals.ipynb
-│   └── 02_loops.ipynb
-│
-├── 03_functions/
-│   ├── 01_defining_functions.ipynb
-│   ├── 02_lambda_map_filter.ipynb
-│   └── 03_decorators.ipynb
-│
-├── 04_data_structures/
-│   ├── 01_lists_tuples.ipynb
-│   ├── 02_dictionaries_sets.ipynb
-│   └── 03_comprehensions.ipynb
-│
-├── 05_oop/
-│   ├── 01_classes_objects.ipynb
-│   ├── 02_inheritance_polymorphism.ipynb
-│   └── 03_magic_methods.ipynb
-│
-├── 06_file_handling/
-├── 07_error_handling/
-├── 08_modules_packages/
-├── 09_advanced/
-│   ├── 01_generators_iterators.ipynb
-│   ├── 02_context_managers.ipynb
-│   └── 03_async_programming.ipynb
-│
-└── resources.md
+├── notebooks/
+│   ├── 01_variables_data_types/
+│   ├── 02_control_flow/
+│   ├── 03_functions/
+│   └── ...
+├── requirements.txt
+├── resources.md
+└── .gitignore
 ```
 
 ---
 
-## 📓 Notebooks
+## Stack
 
-| # | Topic | Notebook | Status |
-|---|-------|----------|--------|
-| 01 | Variables & Data Types | [View](01_basics/01_variables_and_datatypes.ipynb) | 🔄 In Progress |
-| 02 | Control Flow | Coming Soon | ⏳ |
-| 03 | Functions & Decorators | Coming Soon | ⏳ |
-| 04 | OOP in Python | Coming Soon | ⏳ |
-| 05 | Advanced Python | Coming Soon | ⏳ |
+- Python 3.11
+- NumPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook / JupyterLab
 
 ---
 
-## 🚀 Getting Started
+## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/python-fundamentals.git
+git clone https://github.com/hammadhaideer/python-fundamentals
 cd python-fundamentals
-pip install jupyter notebook
+pip install -r requirements.txt
 jupyter notebook
 ```
 
 ---
 
-## 📚 Resources
+## Contact
 
-See [`resources.md`](resources.md) for books, courses, and references used.
+**Hammad Haideer**
+Master's student in Computer Science — Xinjiang University
+Research: Anomaly Detection · NLP
 
----
-
-## 🤝 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
-
-> ⭐ If this helped you, consider starring the repo!
+[LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
