@@ -1,12 +1,20 @@
 # python-fundamentals
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
 A complete Python reference built notebook by notebook. Every concept is implemented from scratch with real examples — not toy snippets. This is the foundation everything else in this portfolio sits on.
+
+---
 
 ## About
 
 This repo covers Python from the ground up, moving from core syntax through to the advanced patterns used in production ML code. Each notebook is self-contained: you can read it top to bottom, run every cell, and come away with a working mental model of the topic.
 
 The goal is not to memorize syntax. The goal is to understand how Python actually works so that writing clean, idiomatic code becomes natural.
+
+---
 
 ## Notebooks
 
@@ -26,6 +34,8 @@ The goal is not to memorize syntax. The goal is to understand how Python actuall
 
 Status: ✅ Complete · 🔄 In Progress · ⏳ Planned
 
+---
+
 ## Structure
 
 ```
@@ -40,6 +50,8 @@ python-fundamentals/
 └── .gitignore
 ```
 
+---
+
 ## Stack
 
 - Python 3.11
@@ -47,6 +59,8 @@ python-fundamentals/
 - Pandas
 - Matplotlib
 - Jupyter Notebook / JupyterLab
+
+---
 
 ## Setup
 
@@ -57,10 +71,12 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+---
+
 ## Contact
 
 **Hammad Haideer**
-Master's student in Computer Science - Xinjiang University
+Master's student in Computer Science — Xinjiang University
 Research: Anomaly Detection · NLP
 
 [LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
