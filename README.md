@@ -3,7 +3,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-A complete Python reference built notebook by notebook. Every concept is implemented from scratch with real examples — not toy snippets. This is the foundation everything else in this portfolio sits on.
+A complete Python reference built notebook by notebook. Every concept is implemented from scratch with real examples. This is the foundation everything else in this portfolio sits on.
 
 ## About
 
@@ -63,6 +63,6 @@ jupyter notebook
 ## Contact
 
 **Hammad Haideer**
-Master's student in Computer Science — Xinjiang University
+Master's student in Computer Science - Xinjiang University
 Research: Anomaly Detection · NLP
 [LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
