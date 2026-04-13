@@ -63,8 +63,4 @@ jupyter notebook
 ## Contact
 
 **Hammad Haideer**
-Master's student in Computer Science - Xinjiang University
-
-Research: Anomaly Detection · NLP
-
 [LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
