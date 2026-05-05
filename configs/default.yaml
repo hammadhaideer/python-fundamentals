@@ -1,0 +1,38 @@
+# MedCLIP Training Configuration
+# EMNLP 2022 reproduction
+
+# Model Architecture
+image_encoder: resnet50  # or vit_base_patch16
+text_encoder: bert-base-uncased
+embed_dim: 512
+freeze_vision: false
+freeze_text: false
+
+# Data
+data_root: ${MIMIC_CXR_ROOT}  # env variable
+dataset_name: mimic_cxr
+max_text_length: 128
+image_size: 224
+batch_size: 64
+num_workers: 8
+
+# Semantic Matching Loss
+concept_source: chexpert
+concept_threshold: 0.5
+hard_negative_mining: true
+margin: 0.2
+
+# Training
+epochs: 30
+learning_rate: 1e-4
+weight_decay: 1e-4
+lr_scheduler: cosine
+warmup_epochs: 2
+use_amp: true
+gradient_accumulation_steps: 2
+
+# Logging & Checkpoints
+log_interval: 50
+eval_interval: 500
+checkpoint_dir: checkpoints/
+seed: 42
